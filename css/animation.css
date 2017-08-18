@@ -1,0 +1,64 @@
+@keyframes rotate{
+	from {
+		transform: rotate(0deg)
+	}
+	to {
+		transform: rotate(90deg);
+	}
+}
+@keyframes rotate180{
+	from {
+		transform: rotate(0deg)
+	}
+	to {
+		transform: rotate(170deg);
+	}
+}
+
+@keyframes flyout{
+	from {
+		transform: rotate(0deg);
+		top: 30vw;
+		opacity: 1
+	}
+	to {
+		transform: rotate(360deg);
+		top: 0vw;
+		opacity: 0.8
+	}
+}
+
+
+
+
+
+
+@-webkit-keyframes rotate{
+	from {
+		transform: rotate(0deg)
+	}
+	to {
+		transform: rotate(90deg);
+	}
+}
+@-webkit-keyframes rotate180{
+	from {
+		transform: rotate(0deg)
+	}
+	to {
+		transform: rotate(170deg);
+	}
+}
+
+@-webkit-keyframes flyout{
+	from {
+		transform: rotate(0deg);
+		top: 30vw;
+		opacity: 1
+	}
+	to {
+		transform: rotate(360deg);
+		top: 0vw;
+		opacity: 0.8
+	}
+}

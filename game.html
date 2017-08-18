@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ice bucket challenge</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<script src='lib/js/jquery-2.1.4.js'></script>
+	<script src='lib/js/jquery.touchSwipe.min.js'></script>
+	<script src='./js/ice.js'></script>
+	<link rel="stylesheet" href="css/icestyle.css">
+</head>
+<body>
+	<div class="body_layout">
+		<header class="clearfix">
+			<div class="score_box">
+				<img src="img/jifenban.png" alt="记分板">
+				<p>X <span id="scoreNum">0</span></p>
+			</div>
+		</header>
+		<div class="pulleys_layout">
+			<div class="pulley pulley_l">
+				<img src="img/hualun.png" alt="滑轮">
+			</div>
+			<div class="pulley pulley_r">
+				<img src="img/hualun.png" alt="滑轮">
+			</div>
+			<div class="move_layout move_1">
+			
+				<!-- 第一层钩子 -->
+				<div class="hook_layout clearfix">
+					<div class="hook_3 m_t">
+						<div class="hook_box">
+							<img src="img/konggouzi.png" alt="钩子">
+						</div>	
+					</div>
+					<div class="hook_3 m_t">
+						<div class="hook_box">
+							<img src="img/konggouzi.png" alt="钩子">
+						</div>	
+					</div>
+					<div class="hook_3 m_t">
+						<div class="hook_box">
+							<img src="img/konggouzi.png" alt="钩子">
+						</div>	
+					</div>
+					<div class="hook_3 m_t">
+						<div class="hook_box">
+							<img src="img/konggouzi.png" alt="钩子">
+						</div>	
+					</div>
+				</div>
+
+			</div>
+			<div class="move_layout move_2">
+				<!-- 第二层钩子 -->
+				<div class="hook_layout clearfix">
+					<div class="hook_3">
+						<div class="hook_box">
+							<img src="img/konggouzi.png" alt="钩子">
+							<div class="tong">
+								<img src="img/tong-kong.png" alt="桶">
+							</div>
+							<div class="before_line">
+								<img src="img/outline.png" alt="外侧绳子">
+							</div>
+						</div>	
+					</div>
+					<div class="hook_3">
+						<div class="hook_box">
+							<img src="img/konggouzi.png" alt="钩子">
+							<div a='2' class="tong">
+								<img src="img/tong-kong.png" alt="桶">
+							</div>							
+							<div class="before_line">
+								<img src="img/outline.png" alt="外侧绳子">
+							</div>
+						</div>	
+					</div>
+					<div class="hook_3">
+						<div class="hook_box">
+							<img src="img/konggouzi.png" alt="钩子">
+							<div a='1' class="tong">
+								<img src="img/tong-kong.png" alt="桶">
+							</div>							
+							<div class="before_line">
+								<img src="img/outline.png" alt="外侧绳子">
+							</div>
+						</div>	
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="person_layout">
+			<img src="img/p1.png" alt="小人">
+		</div>
+
+	</div>
+	<div class="fly_dom">
+		<img src="img/flyb.png" alt="石头或冰">
+	</div>
+	<div class="debug"></div>
+</body>
+</html>

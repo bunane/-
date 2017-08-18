@@ -1,0 +1,171 @@
+@import url(common.css);
+@import url(animation.css);
+.debug{
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	/*background: rgba(255,255,255,0.1);*/
+	z-index: 99999;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.index_layout,.body_layout,html,body{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+.body_layout{
+	background: url(../img/bttzbg.jpg);
+	background-size: 100% 100%;
+}
+.score_box{
+	width: 37.36vw;
+	height: auto;
+	float: right;
+	margin:1.11vw 9.3vw 0 0;
+	position: relative;
+}
+.score_box p{
+	position: absolute;
+	left: 17vw;
+	top: 4vw;
+	color: #0075a9;
+	font-size: 7vw;
+
+}
+.score_box p span{
+	color: #0075a9;
+}
+.score_box img{
+	width: 100%;
+	height: 100%;
+}
+.pulleys_layout{
+	margin: 1.11vw 0;
+	border-top:1.11vw solid #0075a9;
+	border-bottom:1.11vw solid #0075a9;
+	height: 14.61vw;
+	position: relative;
+
+}
+.pulley{
+	width: 13.61vw;
+	height: 13.61vw;
+	font-size: 0;
+	position: absolute;
+}
+.pulley_l{
+	left: -6.805vw;
+	top: -0.6vw;
+}
+.pulley_r{
+	right: -6.805vw;
+	top: -0.6vw;
+}
+.hook_3{
+	width: 33.333vw;
+	height: auto;
+	float: left;
+	margin-top: 12vw;
+}
+.m_t{
+	margin-top: -1.5vw;
+}
+.hook_box{
+	z-index: 2;
+	margin: 0 auto;
+	width: 6.8vw;
+	height: auto;
+	position: relative;
+}
+.tong{
+	width: 18.75vw;
+	height: auto;
+	position: absolute;
+	left: -5vw;
+	top: 9vw;
+}
+
+.before_line{
+	width: 2.6389vw;
+	height: auto;
+	position: absolute;
+	left: 3vw;
+	top: 6vw;
+}
+.move_layout{
+	/*min-width: 133.34vw;*/
+	min-width: 2000vw;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.move_1{
+	left: -33.333vw;
+}
+
+.fly_dom{
+	width: 18.19444vw;
+	height: auto;
+	position: fixed;
+	left: 42vw;
+	top: 30vw;
+	display: none;
+}
+
+.person_layout{
+	width: 44.86111vw;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 18vh;
+}
+
+/*.move_3{
+	animation: move_3 0.3s linear;
+	animation-fill-mode : forwards;
+	transform-origin: center bottom;
+}
+
+@keyframes move_3{
+	from {
+		transform: translate(0vw,0vw)
+	}
+	to {
+		transform: translate(-33.333vw,0vw)
+	}
+}
+*/
+.rotate{
+	animation: rotate 0.2s linear;
+	-webkit-animation: rotate 0.2s linear;
+}
+.rotate_180{
+	animation: rotate180 0.2s linear;
+	-webkit-animation: rotate180 0.2s linear;
+}
+.flyout{
+	animation: flyout 0.2s linear;
+	-webkit-animation: flyout 0.2s linear;
+}
+/*index*/
+.index_layout{
+	background: url(../img/gtindexbg.jpg);
+	background-size: 100% 100%;
+}
+.index_layout .button_layout{
+	width: 100vw;
+	overflow: hidden;
+	position: fixed;
+	left: 50vw;
+	bottom: 10vh;
+	margin-left: -50vw;
+}
+.index_layout .button_layout button{
+	width: 33.333vw;
+	float: left;
+}
